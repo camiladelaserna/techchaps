@@ -42,6 +42,7 @@ a {
     font-size: 20px;
     color: white;
     margin-left: 50px;
+    cursor:default;
 }
 
 .content {
@@ -81,7 +82,6 @@ button {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     color: black;
-    cursor: pointer;
 }
 
 .animation {
@@ -106,8 +106,7 @@ button {
     position: absolute;
     top: 0;
     right: 0; 
-    
-1.}  
+}  
 
 /* make keyframes that tell the start state and the end state of our object */
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -150,8 +149,8 @@ button {
   }
   .css-typing h1:nth-child(1) {
     width: 10em;
-    -webkit-animation: type 1.2s steps(40, end);
-    animation: type 1.2s steps(40, end);
+    -webkit-animation: type 0.6s steps(40, end);
+    animation: type 0.6s steps(40, end);
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
@@ -159,10 +158,10 @@ button {
   .css-typing h1:nth-child(2) {
     width: 6em;
     opacity: 0;
-    -webkit-animation: type2 1.2s steps(40, end);
-    animation: type2 1.2s steps(40, end);
-    -webkit-animation-delay: 1.2s;
-    animation-delay: 1.2s;
+    -webkit-animation: type2 0.6s steps(40, end);
+    animation: type2 0.6s steps(40, end);
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
